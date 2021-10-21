@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 :root {
   --deleteColor: #ffbb00;
   --backgroundColor: rgb(84, 2, 247);
@@ -21,7 +21,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 /*# sourceMappingURL=App.css.map */
+ul {
+  list-style: none;
+}
